@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Atores e Atrizes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="topo">
+        <div class="conteudo-topo">
+            <p class="categoria">APPLICATION DEVELOPMENT</p>
+            <h1>Catálogo de Atores e Atrizes</h1>
+            <p class="subtitulo">Encontre uma pessoa pelo nome</p>
+
+            <input
+                type="text"
+                id="campo-busca"
+                placeholder="Digite um nome..."
+                oninput="filtrarAtores()"
+            >
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <div class="titulo-lista">
+            <h2>Todos os atores e atrizes</h2>
+            <p id="quantidade"></p>
+        </div>
+
+        <div class="atores"></div>
+    </main>
+
+    <footer>
+        <p>CheckPoint 2 - Application Development</p>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

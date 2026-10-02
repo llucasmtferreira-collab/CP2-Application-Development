@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #10141f;
+    color: #f5f5f5;
+}
+
+.topo {
+    background-color: #182131;
+    border-bottom: 4px solid #e0a458;
+    padding: 48px 20px;
+    text-align: center;
+}
+
+.conteudo-topo {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.categoria {
+    color: #e0a458;
+    font-size: 13px;
+    margin: 0 0 10px 0;
+}
+
+.topo h1 {
+    font-size: 38px;
+    margin: 0;
+}
+
+.subtitulo {
+    color: #c7cbd4;
+    margin: 10px 0 24px 0;
+}
+
+#campo-busca {
+    width: 520px;
+    max-width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    border: 2px solid #34415a;
+    border-radius: 10px;
+    background-color: white;
+    color: #222;
+}
+
+.conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 24px 45px 24px;
+}
+
+.titulo-lista {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #34415a;
+    padding-bottom: 12px;
+}
+
+.titulo-lista h2 {
+    margin: 0 0 6px 0;
+    font-size: 24px;
+}
+
+.titulo-lista p {
+    margin: 0;
+    color: #aeb5c2;
+}
+
+.atores {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+}
+
+.card {
+    background-color: #1b2433;
+    border: 1px solid #34415a;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.card:hover {
+    border: 2px solid #e0a458;
+    background-color: #202b3d;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 14px 0 10px 0;
+    color: white;
+}
+
+.card p {
+    margin: 7px 0;
+    color: #c7cbd4;
+    font-size: 14px;
+}
+
+.card strong {
+    color: #e0a458;
+}
+
+footer {
+    text-align: center;
+    padding: 22px;
+    background-color: #182131;
+    color: #9fa7b5;
+    font-size: 13px;
+    border-top: 1px solid #34415a;
+}
+
+@media (max-width: 950px) {
+    .atores {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .topo {
+        padding: 36px 18px;
+    }
+
+    .topo h1 {
+        font-size: 29px;
+    }
+
+    .conteudo {
+        padding: 25px 18px 35px 18px;
+    }
+
+    .atores {
+        grid-template-columns: 1fr;
+    }
+}
