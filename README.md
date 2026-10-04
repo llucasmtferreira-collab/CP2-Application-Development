@@ -29,7 +29,7 @@ Os dados utilizados estão no arquivo `dados.js`, fornecido na atividade.
 
 ## Prints da entrega
 
-A pasta `prints` deve conter:
+A pasta `prints` contém:
 
 - `tela-inicial.png`
 - `filtro-aplicado.png`
